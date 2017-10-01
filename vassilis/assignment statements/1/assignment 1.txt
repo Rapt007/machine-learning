@@ -1,0 +1,50 @@
+Task 1 (20 points)
+
+You are a meteorologist that places temperature sensors all of the world, and you set them up so that they automatically e-mail you, each day, the high temperature for that day. Unfortunately, you have forgotten whether you placed a certain sensor S in Maine or in the Sahara desert (but you are sure you placed it in one of those two places) . The probability that you placed sensor S in Maine is 5%. The probability of getting a daily high temperature of 80 degrees or more is 20% in Maine and 90% in Sahara. Assume that probability of a daily high for any day is conditionally independent of the daily high for any other day, given the location of the sensor.
+The sensor stays at a single place throughout your observations, it CANNOT move from Sahara to Maine between one day and another. If the sensor was in Sahara on day 1, it will stay in Sahara forever, and likewise if the sensor was in Maine on day 1, it will stay in Maine for ever.
+
+Part a If the first e-mail you got from sensor S indicates a daily high under 80 degrees, what is the probability that the sensor is placed in Maine
+
+Part b If the first e-mail you got from sensor S indicates a daily high under 80 degrees, what is the probability that the second e-mail also indicates a daily high under 80 degrees
+
+Part c What is the probability that the first three e-mails all indicate daily highs under 80 degrees
+
+Task 2 (20 points)
+
+A and B are two Boolean events that are independent of each other. P(A) = 0.3 and P(B) = 0.6.
+Compute the following three quantities
+
+P(A and B).
+P(A or B).
+
+P(A = B). 
+Note that (A = B) is a Boolean expression. You are asked to compute the probability that (A = B) evaluates to true.
+Task 3 (10 points)
+
+Function P is a function defined on a set S consisting of four atomic events. S = {A, B, C, D}. We do not know the value of P for all samples, but we know that P(A) = 0.3 and P(B) = 0.6. What can you say about whether P is a valid probability function Is P definitely a probability function, possibly a probability function, or definitely not a probability function Justify your answer.
+Task 4 (10 points)
+
+Function P is a function defined on the set of real numbers. We do not know the value of P for all cases, but we know that P(x) = 0.3 when 0 = x = 10. What can you say about whether P is a valid probability density function Is P definitely a probability density function, possibly a probability density function, or definitely not a probability density function Justify your answer.
+Task 5 (20 points)
+
+Three prisoners, A, B and C, are in separate cells and sentenced to death. The governor has selected one of them at random to be pardoned. The warden knows which one is pardoned, but is not allowed to tell. Prisoner A begs the warden to let him know the identity of one of the others who is going to be executed. If B is to be pardoned, give me C's name. If C is to be pardoned, give me B's name. And if I'm to be pardoned, flip a coin to decide whether to name B or C.
+The warden tells A that B is to be executed. Prisoner A is pleased because he believes that his probability of surviving has gone up from 13 to 12, as it is now between him and C. Prisoner A secretly tells C the news, who is also pleased, because he reasons that A still has a chance of 13 to be the pardoned one, but his chance has gone up to 23. Who is right, A or C Justify your answer by quantitatively computing the probability that C will be executed, given the information that the warden provided.
+
+Task 6 (20 points)
+
+We have a dataset of 40 training examples. The i-th training example is denoted as (xi, ti), where xi is the example input and ti is the target output.
+The target inputs xi can be downloaded from training_inputs1.txt. Each xi is a three-dimensional vector denoted as (xi, 1, xi, 2, xi, 3). In file training_inputs1.txt, the number at row i and column j is the value for xi, j.
+
+The target outputs ti can be downloaded from training_outputs1.txt. Each ti is a real number. Row i of training_outputs1.txt contains the value for ti.
+
+Following the notation of Section 1.1 in the textbook
+
+Let w be a three dimensional vector (w1, w2, w3).
+Define y(xi, w) as follows y(xi, w) = w1  xi, 1 + w2  xi, 2 + w3  xi, 3.
+Part a If w = (3, -1.5, -2), evaluate E(w) as defined on Equation 1.2 of the textbook. Your answer only needs to show the number that the result is equal to, with exactly two decimal digits of precision.
+Part b If w = (5.2, -2, 1), evaluate E(w) as defined on Equation 1.2 of the textbook. Your answer only needs to show the number that the result is equal to, with exactly two decimal digits of precision.
+
+Part c If w = (3, -1.5, -2) and ? = 0.25, evaluate the alternative error  defined on Equation 1.4 of the textbook. Your answer only needs to show the number that the result is equal to, with exactly two decimal digits of precision.
+
+Part d If w = (5.2, -2, 1) and ? = 0.25, evaluate the alternative error  defined on Equation 1.4 of the textbook. Your answer only needs to show the number that the result is equal to, with exactly two decimal digits of precision.
+
